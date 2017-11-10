@@ -1,4 +1,4 @@
-# 一个精简的js动画库
+# 一个精简的js动画库实现
 
 ## 项目地址
 [animation.js](https://github.com/heruiwoniou/animation)
@@ -14,7 +14,7 @@ Animation().easing(Animation.easing.Linear).duration(1000).run((i)=>{
   document.querySelector('div').style.left = 10 + 90 * i + 'left'
 })
 .then(()=>{
-
+  // 动画结束回调
 })
 ```
 
